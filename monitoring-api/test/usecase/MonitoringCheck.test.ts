@@ -6,7 +6,6 @@ import MonitoringCheckMessage from "../../src/application/usecase/monitoring-che
 import MonitoringCheckWorker from "../../src/domain/entity/core/worker/MonitoringCheckWorker";
 import { left, right } from "../../src/domain/shared/Either";
 import sleep from "../sleep";
-//const sinon = require("sinon");
 
 beforeAll(() => {
     //MOCK
