@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+
+#Google cloud
+/resources/google-cloud/google-ssh-key
+/resources/google-cloud/google-ssh-key.pub
+
+*.pem
+*.key
+*.pub
+
+
+#Env
+/dashboard-web/env/*
+!/dashboard-web/env/(example)*
+
+/dashboard-api/env/*
+!/dashboard-api/env/(example)*
+
+/monitoring-api/env/*
+!/monitoring-api/env/(example)*
+
+#logs
+web.log
+web.err
+api.log
+api.err
+
+
+
+
+#terraform
+
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+.terraform
+
+
+todo.txt

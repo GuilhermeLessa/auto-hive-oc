@@ -1,0 +1,4 @@
+export enum ENV {
+    LOCALHOST = "LOCALHOST",
+    GOOGLE_CLOUD = "GOOGLE_CLOUD"
+}
